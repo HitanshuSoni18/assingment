@@ -1,0 +1,153 @@
+#phonepe-logo,
+#Google,
+#Paytm,
+#Bhim,
+#rupay {
+  width: 1em;
+  height: 1em;
+}
+
+ /* Remove fixed width */
+#box-container {
+  border: 2px solid #0b32df;
+  padding: 40px;
+  margin: 0 auto; /* Center the container horizontally */
+  max-width: 80%; /* Set maximum width to 80% of the viewport width */
+  max-height: 80vh; /* Set maximum height to 80% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add styles for your content inside #box-container as needed */
+
+.container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+   
+  #box-container {
+    padding: 20px;
+  }
+}
+
+.half-line {
+  border: none;
+  border-top: 2px solid #d1cece;
+  position: relative;
+}
+
+ 
+.or-text {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 0 10px;
+}
+
+h5 {
+  color: #a29e9e;
+}
+
+ 
+.phone-input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  width: 100%;
+}
+
+ 
+.phone-number-and-button {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: auto;
+}
+
+ 
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+#Powered {
+  width: 150px;
+  height: 50px;
+}
+
+p {
+  color: #a29e9e;
+}
+ 
+.container {
+    width: 100%;
+  }
+  
+  
+  
+  
+  h4 {
+    margin-top: ;
+  }
+  /* Style for the "prima-container" */
+.prima-container {
+  position: relative;
+  text-align: left;
+}
+
+/* Style for the right line */
+.prima-container::after {
+  content: "";
+  position: absolute;
+  top: 70%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 170px; /* Adjust the width of the line as needed */
+  height: 2px; /* Adjust the height of the line as needed */
+  background-color: #a5a0a0; /* Adjust the line color as needed */
+}
+.payment-box {
+  width: 100%;
+  background: #004b8d;
+  border: none;
+  border-radius: 10px;
+  margin: 0.3rem 0;
+  padding: 0 1rem;
+  height: 52px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+.payment-name {
+  color: #fff; /* Text color for the payment method name */
+  margin-left: 10px; /* Adjust the spacing between the logo and the name */
+}
